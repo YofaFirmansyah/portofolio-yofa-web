@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portofolio Yofa Firmansyah — Digital Artisan: Front-End Developer, UI/UX Designer, dan Desain Grafis. Fresh Graduate Teknik Informatika UNBAJA." />
+  <meta name="description"
+    content="Portofolio Yofa Firmansyah — Digital Artisan: Front-End Developer, UI/UX Designer, dan Desain Grafis. Fresh Graduate Teknik Informatika UNBAJA." />
   <meta name="keywords" content="Yofa Firmansyah, portofolio, front-end developer, UI/UX, desain grafis, UNBAJA" />
   <meta name="author" content="Yofa Firmansyah" />
   <title>Yofa Firmansyah — Digital Artisan</title>
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body class="overflow-x-hidden">
 
   <!-- ===================== NAVBAR ===================== -->
-  <nav id="navbar" class="fixed top-0 left-0 w-full z-50 bg-brutal-bg/90 backdrop-blur-md border-b-4 border-brutal-black transition-all duration-300">
+  <nav id="navbar"
+    class="fixed top-0 left-0 w-full z-50 bg-brutal-bg/90 backdrop-blur-md border-b-4 border-brutal-black transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
       <a href="#hero" class="font-heading font-bold text-xl uppercase tracking-tight">
         Yofa<span class="text-brutal-blue">.</span>
       </a>
       <!-- Desktop Menu -->
       <div class="hidden md:flex items-center gap-1">
-        <a href="#pengalaman" class="px-4 py-2 font-heading font-semibold text-sm uppercase hover:bg-brutal-yellow border-3 border-transparent hover:border-brutal-black transition-all duration-150">Pengalaman</a>
-        <a href="#keahlian" class="px-4 py-2 font-heading font-semibold text-sm uppercase hover:bg-brutal-yellow border-3 border-transparent hover:border-brutal-black transition-all duration-150">Keahlian</a>
-        <a href="#portofolio" class="px-4 py-2 font-heading font-semibold text-sm uppercase hover:bg-brutal-yellow border-3 border-transparent hover:border-brutal-black transition-all duration-150">Portofolio</a>
+        <a href="#pengalaman"
+          class="px-4 py-2 font-heading font-semibold text-sm uppercase hover:bg-brutal-yellow border-3 border-transparent hover:border-brutal-black transition-all duration-150">Pengalaman</a>
+        <a href="#keahlian"
+          class="px-4 py-2 font-heading font-semibold text-sm uppercase hover:bg-brutal-yellow border-3 border-transparent hover:border-brutal-black transition-all duration-150">Keahlian</a>
+        <a href="#portofolio"
+          class="px-4 py-2 font-heading font-semibold text-sm uppercase hover:bg-brutal-yellow border-3 border-transparent hover:border-brutal-black transition-all duration-150">Portofolio</a>
         <a href="#kontak" class="brutal-btn text-xs !py-2 !px-4">Hubungi Saya</a>
       </div>
       <!-- Mobile Hamburger -->
-      <button id="mobile-menu-btn" class="md:hidden flex flex-col gap-1.5 p-2 border-3 border-brutal-black bg-white" aria-label="Toggle menu">
+      <button id="mobile-menu-btn" class="md:hidden flex flex-col gap-1.5 p-2 border-3 border-brutal-black bg-white"
+        aria-label="Toggle menu">
         <span class="block w-6 h-0.5 bg-brutal-black transition-all duration-300" id="bar1"></span>
         <span class="block w-6 h-0.5 bg-brutal-black transition-all duration-300" id="bar2"></span>
         <span class="block w-6 h-0.5 bg-brutal-black transition-all duration-300" id="bar3"></span>
@@ -35,10 +43,15 @@
     <!-- Mobile Menu Panel -->
     <div id="mobile-menu" class="md:hidden hidden border-t-4 border-brutal-black bg-white">
       <div class="flex flex-col p-4 gap-2">
-        <a href="#pengalaman" class="mobile-link px-4 py-3 font-heading font-semibold text-sm uppercase border-3 border-brutal-black hover:bg-brutal-yellow transition-all">Pengalaman</a>
-        <a href="#keahlian" class="mobile-link px-4 py-3 font-heading font-semibold text-sm uppercase border-3 border-brutal-black hover:bg-brutal-yellow transition-all">Keahlian</a>
-        <a href="#portofolio" class="mobile-link px-4 py-3 font-heading font-semibold text-sm uppercase border-3 border-brutal-black hover:bg-brutal-yellow transition-all">Portofolio</a>
-        <a href="#kontak" class="mobile-link px-4 py-3 font-heading font-bold text-sm uppercase border-3 border-brutal-black bg-brutal-blue text-white hover:bg-brutal-yellow hover:text-brutal-black transition-all">Hubungi Saya</a>
+        <a href="#pengalaman"
+          class="mobile-link px-4 py-3 font-heading font-semibold text-sm uppercase border-3 border-brutal-black hover:bg-brutal-yellow transition-all">Pengalaman</a>
+        <a href="#keahlian"
+          class="mobile-link px-4 py-3 font-heading font-semibold text-sm uppercase border-3 border-brutal-black hover:bg-brutal-yellow transition-all">Keahlian</a>
+        <a href="#portofolio"
+          class="mobile-link px-4 py-3 font-heading font-semibold text-sm uppercase border-3 border-brutal-black hover:bg-brutal-yellow transition-all">Portofolio</a>
+        <a href="#kontak"
+          class="mobile-link px-4 py-3 font-heading font-bold text-sm uppercase border-3 border-brutal-black bg-brutal-blue text-white hover:bg-brutal-yellow hover:text-brutal-black transition-all">Hubungi
+          Saya</a>
       </div>
     </div>
   </nav>
@@ -48,9 +61,15 @@
     <!-- ===================== HERO SECTION ===================== -->
     <section id="hero" class="min-h-screen flex items-center pt-20 pb-16 relative overflow-hidden">
       <!-- Decorative background shapes -->
-      <div class="absolute top-20 right-0 w-72 h-72 bg-brutal-yellow border-4 border-brutal-black -rotate-12 opacity-30 -z-10 hidden lg:block"></div>
-      <div class="absolute bottom-10 left-0 w-48 h-48 bg-brutal-blue border-4 border-brutal-black rotate-6 opacity-20 -z-10 hidden lg:block"></div>
-      <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-brutal-yellow/40 border-4 border-brutal-black rotate-45 -z-10 hidden lg:block animate-float"></div>
+      <div
+        class="absolute top-20 right-0 w-72 h-72 bg-brutal-yellow border-4 border-brutal-black -rotate-12 opacity-30 -z-10 hidden lg:block">
+      </div>
+      <div
+        class="absolute bottom-10 left-0 w-48 h-48 bg-brutal-blue border-4 border-brutal-black rotate-6 opacity-20 -z-10 hidden lg:block">
+      </div>
+      <div
+        class="absolute top-1/2 left-1/3 w-24 h-24 bg-brutal-yellow/40 border-4 border-brutal-black rotate-45 -z-10 hidden lg:block animate-float">
+      </div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -64,10 +83,11 @@
             <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none">
               Digital Artisan<span class="text-brutal-blue">:</span><br />
               <span class="text-stroke">Antara Kode</span><br />
-              dan <span class="inline-block bg-brutal-yellow px-2 border-4 border-brutal-black -rotate-1">Kreativitas</span>
+              dan <span
+                class="inline-block bg-brutal-yellow px-2 border-4 border-brutal-black -rotate-1">Kreativitas</span>
             </h1>
 
-            <p class="text-lg md:text-xl font-body text-gray-700 max-w-xl leading-relaxed">
+            <p class="mt-4 text-lg md:text-xl font-body text-gray-700 max-w-xl leading-relaxed">
               Fresh Graduate <strong class="font-bold">Teknik Informatika UNBAJA</strong> yang berfokus pada
               <span class="bg-brutal-blue/10 px-1 font-semibold">Front-End Development</span>,
               <span class="bg-brutal-blue/10 px-1 font-semibold">UI/UX Design</span>, dan
@@ -76,11 +96,18 @@
 
             <div class="flex flex-wrap gap-4 pt-2">
               <a href="#portofolio" class="brutal-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
                 Lihat Karya
               </a>
               <a href="#kontak" class="brutal-btn-outline">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
                 Kontak
               </a>
             </div>
@@ -88,7 +115,8 @@
 
           <!-- Hero Visual Card -->
           <div class="lg:col-span-5 flex justify-center lg:justify-end">
-            <div class="brutal-card p-6 sm:p-8 max-w-sm w-full rotate-2 hover:rotate-0 transition-transform duration-300">
+            <div
+              class="brutal-card p-6 sm:p-8 max-w-sm w-full rotate-2 hover:rotate-0 transition-transform duration-300">
               <div class="w-full aspect-square border-4 border-brutal-black mb-6 relative overflow-hidden">
                 <img src="/images/fotosaya.jpeg" alt="Yofa Firmansyah" class="w-full h-full object-cover" />
               </div>
@@ -107,7 +135,8 @@
 
     <!-- ===================== MARQUEE STRIP ===================== -->
     <div class="border-y-4 border-brutal-black bg-brutal-black text-white py-3 overflow-hidden">
-      <div class="animate-marquee whitespace-nowrap flex gap-8 text-sm font-heading font-bold uppercase tracking-widest">
+      <div
+        class="animate-marquee whitespace-nowrap flex gap-8 text-sm font-heading font-bold uppercase tracking-widest">
         <span>★ Front-End Development</span>
         <span>★ UI/UX Design</span>
         <span>★ Desain Grafis</span>
@@ -134,7 +163,8 @@
         <div class="mb-12 md:mb-16">
           <span class="brutal-badge-blue mb-4 inline-block">Perjalanan Karir</span>
           <h2 class="section-title">Pengalaman<span class="text-brutal-blue">.</span></h2>
-          <p class="section-subtitle">Pengalaman profesional yang membentuk keahlian saya di bidang desain dan teknologi.</p>
+          <p class="section-subtitle">Pengalaman profesional yang membentuk keahlian saya di bidang desain dan
+            teknologi.</p>
         </div>
 
         <!-- Experience Grid -->
@@ -142,48 +172,75 @@
           <!-- Experience Card 1 -->
           <div class="brutal-card p-6 lg:p-8 flex flex-col h-full">
             <div class="flex items-start justify-between mb-4 flex-wrap gap-2">
-              <div class="w-14 h-14 bg-brutal-yellow border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" /></svg>
+              <div
+                class="w-14 h-14 bg-brutal-yellow border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                </svg>
               </div>
               <span class="brutal-badge text-[10px]">Okt 2023 — Mar 2024</span>
             </div>
             <h3 class="font-heading font-bold text-xl md:text-2xl mb-1">Desain Grafis & Operator Mesin DTF</h3>
             <p class="font-heading font-semibold text-brutal-blue text-sm mb-4">Yadatex Konveksi</p>
             <p class="font-body text-gray-600 leading-relaxed mb-6 flex-grow">
-              Bertanggung jawab dalam pembuatan desain grafis untuk keperluan produksi konveksi, mengoperasikan mesin DTF (Direct to Film), serta mengelola alur kerja percetakan digital dari desain hingga finishing produk.
+              Bertanggung jawab dalam pembuatan desain grafis untuk keperluan produksi konveksi, mengoperasikan mesin
+              DTF (Direct to Film), serta mengelola alur kerja percetakan digital dari desain hingga finishing produk.
             </p>
             <div class="flex gap-2 flex-wrap mt-auto">
-              <span class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">CorelDRAW</span>
-              <span class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Photoshop</span>
-              <span class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Digital Printing</span>
+              <span
+                class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">CorelDRAW</span>
+              <span
+                class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Photoshop</span>
+              <span
+                class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Digital
+                Printing</span>
             </div>
           </div>
 
           <!-- Experience Card 2 -->
           <div class="brutal-card p-6 lg:p-8 flex flex-col h-full">
             <div class="flex items-start justify-between mb-4 flex-wrap gap-2">
-              <div class="w-14 h-14 bg-brutal-blue border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" /></svg>
+              <div
+                class="w-14 h-14 bg-brutal-blue border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                </svg>
               </div>
               <span class="brutal-badge-blue text-[10px]">KKM UNBAJA</span>
             </div>
             <h3 class="font-heading font-bold text-xl md:text-2xl mb-1">Social Media Manager & Content Creator</h3>
             <p class="font-heading font-semibold text-brutal-blue text-sm mb-4">KKM 08 UNBAJA</p>
             <p class="font-body text-gray-600 leading-relaxed mb-4 flex-grow">
-              Mengelola strategi konten dan akun media sosial untuk program KKM (Kuliah Kerja Mahasiswa) UNBAJA. Bertanggung jawab penuh dalam pembuatan konten kreatif, penjadwalan posting, dan peningkatan engagement audiens.
+              Mengelola strategi konten dan akun media sosial untuk program KKM (Kuliah Kerja Mahasiswa) UNBAJA.
+              Bertanggung jawab penuh dalam pembuatan konten kreatif, penjadwalan posting, dan peningkatan engagement
+              audiens.
             </p>
             <!-- Achievement Highlight -->
             <div class="bg-brutal-yellow/20 border-4 border-brutal-black p-4 mb-6">
               <div class="flex items-center gap-2 mb-1">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brutal-yellow" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brutal-yellow" fill="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
                 <span class="font-heading font-bold text-sm uppercase">Pencapaian</span>
               </div>
               <p class="font-heading font-bold text-lg text-brutal-black">🏆 Juara 1 — Akun Media Sosial Terbaik</p>
             </div>
             <div class="flex gap-2 flex-wrap mt-auto">
-              <span class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Content Strategy</span>
-              <span class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Social Media</span>
-              <span class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Video Content</span>
+              <span
+                class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Content
+                Strategy</span>
+              <span
+                class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Social
+                Media</span>
+              <span
+                class="px-3 py-1 text-[11px] font-heading font-bold uppercase border-3 border-brutal-black bg-brutal-bg">Video
+                Content</span>
             </div>
           </div>
         </div>
@@ -207,10 +264,15 @@
         <!-- Skills Grid -->
         <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
           <!-- Technical Stack -->
-          <div class="bg-white text-brutal-black border-4 border-brutal-black shadow-brutal-blue p-6 lg:p-8 transition-all duration-200 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
+          <div
+            class="bg-white text-brutal-black border-4 border-brutal-black shadow-brutal-blue p-6 lg:p-8 transition-all duration-200 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-14 h-14 bg-brutal-blue border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+              <div
+                class="w-14 h-14 bg-brutal-blue border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
               </div>
               <div>
                 <h3 class="font-heading font-bold text-2xl">Technical Stack</h3>
@@ -218,23 +280,28 @@
               </div>
             </div>
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
                 <div class="text-2xl mb-1">🌐</div>
                 <span class="font-heading font-bold text-sm">HTML5</span>
               </div>
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
                 <div class="text-2xl mb-1">🎨</div>
                 <span class="font-heading font-bold text-sm">CSS3</span>
               </div>
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
                 <div class="text-2xl mb-1">⚡</div>
                 <span class="font-heading font-bold text-sm">JavaScript</span>
               </div>
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150">
                 <div class="text-2xl mb-1">🌊</div>
                 <span class="font-heading font-bold text-sm">Tailwind</span>
               </div>
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150 sm:col-span-2">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-blue hover:text-white transition-colors duration-150 sm:col-span-2">
                 <div class="text-2xl mb-1">🔥</div>
                 <span class="font-heading font-bold text-sm">CodeIgniter</span>
               </div>
@@ -242,10 +309,16 @@
           </div>
 
           <!-- Creative Suite -->
-          <div class="bg-white text-brutal-black border-4 border-brutal-black shadow-brutal-yellow p-6 lg:p-8 transition-all duration-200 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
+          <div
+            class="bg-white text-brutal-black border-4 border-brutal-black shadow-brutal-yellow p-6 lg:p-8 transition-all duration-200 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
             <div class="flex items-center gap-4 mb-6">
-              <div class="w-14 h-14 bg-brutal-yellow border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+              <div
+                class="w-14 h-14 bg-brutal-yellow border-4 border-brutal-black flex items-center justify-center flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
               </div>
               <div>
                 <h3 class="font-heading font-bold text-2xl">Creative Suite</h3>
@@ -253,19 +326,23 @@
               </div>
             </div>
             <div class="grid grid-cols-2 gap-3">
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
                 <img src="/images/corel.png" alt="CorelDRAW" class="h-10 w-auto mb-2 object-contain" />
                 <span class="font-heading font-bold text-sm">CorelDRAW</span>
               </div>
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
                 <img src="/images/photoshop.png" alt="Photoshop" class="h-10 w-auto mb-2 object-contain" />
                 <span class="font-heading font-bold text-sm">Photoshop</span>
               </div>
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
                 <img src="/images/canva.jpeg" alt="Canva" class="h-10 w-auto mb-2 object-contain" />
                 <span class="font-heading font-bold text-sm">Canva</span>
               </div>
-              <div class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
+              <div
+                class="border-3 border-brutal-black p-3 text-center hover:bg-brutal-yellow transition-colors duration-150 flex flex-col items-center justify-center">
                 <img src="/images/capcut.jpg" alt="CapCut" class="h-10 w-auto mb-2 object-contain" />
                 <span class="font-heading font-bold text-sm">CapCut</span>
               </div>
@@ -291,18 +368,24 @@
           <div class="brutal-card group flex flex-col">
             <div class="aspect-[4/3] border-b-4 border-brutal-black relative overflow-hidden">
               <img src="/images/logo.png" alt="Desain Logo Profesional" class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300"></div>
+              <div
+                class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300">
+              </div>
               <!-- Corner label -->
-              <div class="absolute top-0 right-0 bg-brutal-yellow border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
+              <div
+                class="absolute top-0 right-0 bg-brutal-yellow border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
                 <span class="font-heading font-bold text-[10px] uppercase">Branding</span>
               </div>
             </div>
             <div class="p-5 flex flex-col flex-grow">
               <h3 class="font-heading font-bold text-lg mb-2">Desain Logo Profesional</h3>
-              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Pembuatan identitas visual dan logo profesional untuk berbagai kebutuhan klien, mulai dari brand personal hingga perusahaan.</p>
+              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Pembuatan identitas visual dan
+                logo profesional untuk berbagai kebutuhan klien, mulai dari brand personal hingga perusahaan.</p>
               <div class="flex gap-2 flex-wrap">
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CorelDRAW</span>
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">Branding</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CorelDRAW</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">Branding</span>
               </div>
             </div>
           </div>
@@ -311,45 +394,66 @@
           <div class="brutal-card group flex flex-col">
             <div class="aspect-[4/3] border-b-4 border-brutal-black relative overflow-hidden">
               <img src="/images/mockup.png" alt="Mockup Desain Sablon" class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300"></div>
-              <div class="absolute top-0 right-0 bg-brutal-black border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
+              <div
+                class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300">
+              </div>
+              <div
+                class="absolute top-0 right-0 bg-brutal-black border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
                 <span class="font-heading font-bold text-[10px] uppercase text-white">Print</span>
               </div>
             </div>
             <div class="p-5 flex flex-col flex-grow">
               <h3 class="font-heading font-bold text-lg mb-2">Mockup Desain Sablon</h3>
-              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Perancangan mockup sablon untuk produksi konveksi, meliputi desain kaos, jaket, dan merchandise dengan teknik DTF printing.</p>
+              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Perancangan mockup sablon untuk
+                produksi konveksi, meliputi desain kaos, jaket, dan merchandise dengan teknik DTF printing.</p>
               <div class="flex gap-2 flex-wrap">
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">Photoshop</span>
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">DTF Print</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">Photoshop</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">DTF
+                  Print</span>
               </div>
             </div>
           </div>
 
           <!-- Project 3: Video Editing (YouTube Embed) -->
           <div class="brutal-card group flex flex-col sm:col-span-2 lg:col-span-1">
-            <div id="yt-container" class="aspect-[4/3] border-b-4 border-brutal-black relative overflow-hidden cursor-pointer bg-brutal-black" onclick="loadYouTube(this)">
+            <div id="yt-container"
+              class="aspect-[4/3] border-b-4 border-brutal-black relative overflow-hidden cursor-pointer bg-brutal-black"
+              onclick="loadYouTube(this)">
               <!-- YouTube Thumbnail -->
-              <img src="https://img.youtube.com/vi/P0u2aDA-STY/hqdefault.jpg" alt="Video Editing Project Thumbnail" class="w-full h-full object-cover absolute inset-0" id="yt-thumb" />
+              <img src="https://img.youtube.com/vi/P0u2aDA-STY/hqdefault.jpg" alt="Video Editing Project Thumbnail"
+                class="w-full h-full object-cover absolute inset-0" id="yt-thumb" />
               <!-- Dark Overlay -->
-              <div class="absolute inset-0 bg-brutal-black/40 group-hover:bg-brutal-black/20 transition-all duration-300" id="yt-overlay"></div>
+              <div
+                class="absolute inset-0 bg-brutal-black/40 group-hover:bg-brutal-black/20 transition-all duration-300"
+                id="yt-overlay"></div>
               <!-- Play Button -->
               <div class="absolute inset-0 flex items-center justify-center z-10" id="yt-play-btn">
-                <div class="w-20 h-20 bg-brutal-yellow border-4 border-brutal-black flex items-center justify-center shadow-brutal-sm group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-none transition-all duration-150">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-brutal-black ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                <div
+                  class="w-20 h-20 bg-brutal-yellow border-4 border-brutal-black flex items-center justify-center shadow-brutal-sm group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-none transition-all duration-150">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-brutal-black ml-1" fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
                 </div>
               </div>
               <!-- Corner Label -->
-              <div class="absolute top-0 right-0 bg-brutal-blue border-l-4 border-b-4 border-brutal-black px-3 py-1 z-20">
+              <div
+                class="absolute top-0 right-0 bg-brutal-blue border-l-4 border-b-4 border-brutal-black px-3 py-1 z-20">
                 <span class="font-heading font-bold text-[10px] uppercase text-white">Motion</span>
               </div>
             </div>
             <div class="p-5 flex flex-col flex-grow">
               <h3 class="font-heading font-bold text-lg mb-2">Produksi Video Kreatif</h3>
-              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Produksi dan editing video konten untuk media sosial, dokumentasi kegiatan, dan materi promosi menggunakan Adobe Premiere dan CapCut.</p>
+              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Produksi dan editing video
+                konten untuk media sosial, dokumentasi kegiatan, dan materi promosi menggunakan Adobe Premiere dan
+                CapCut.</p>
               <div class="flex gap-2 flex-wrap">
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">Premiere</span>
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CapCut</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">Premiere</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CapCut</span>
               </div>
             </div>
           </div>
@@ -357,22 +461,33 @@
           <!-- Project 4: SPK Topsis Tinta Sablon -->
           <div class="brutal-card group flex flex-col">
             <div class="aspect-[4/3] border-b-4 border-brutal-black relative overflow-hidden">
-              <img src="/images/spk-tinta.png" alt="Sistem Pendukung Keputusan Tinta Sablon" class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300"></div>
+              <img src="/images/spk-tinta.png" alt="Sistem Pendukung Keputusan Tinta Sablon"
+                class="w-full h-full object-cover" />
+              <div
+                class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300">
+              </div>
               <!-- Corner label -->
-              <div class="absolute top-0 right-0 bg-brutal-yellow border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
+              <div
+                class="absolute top-0 right-0 bg-brutal-yellow border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
                 <span class="font-heading font-bold text-[10px] uppercase">Web App</span>
               </div>
             </div>
             <div class="p-5 flex flex-col flex-grow">
               <h3 class="font-heading font-bold text-lg mb-2">SPK Pemilihan Tinta Sablon</h3>
-              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Aplikasi web Sistem Pendukung Keputusan menggunakan metode TOPSIS untuk membantu pemilihan tinta sablon terbaik.</p>
+              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Aplikasi web Sistem Pendukung
+                Keputusan menggunakan metode TOPSIS untuk membantu pemilihan tinta sablon terbaik.</p>
               <div class="flex gap-2 flex-wrap mb-4">
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CodeIgniter</span>
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">TOPSIS</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CodeIgniter</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">TOPSIS</span>
               </div>
-              <a href="https://github.com/YofaFirmansyah/spk-topsis-tintasablon" target="_blank" rel="noopener noreferrer" class="brutal-btn-outline w-full justify-center !py-2 text-xs">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              <a href="https://github.com/YofaFirmansyah/spk-topsis-tintasablon" target="_blank"
+                rel="noopener noreferrer" class="brutal-btn-outline w-full justify-center !py-2 text-xs">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
                 Lihat Repository
               </a>
             </div>
@@ -382,20 +497,31 @@
           <div class="brutal-card group flex flex-col">
             <div class="aspect-[4/3] border-b-4 border-brutal-black relative overflow-hidden">
               <img src="/images/inventori-rop.png" alt="Sistem Inventori ROP" class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300"></div>
-              <div class="absolute top-0 right-0 bg-brutal-blue border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
+              <div
+                class="absolute inset-0 bg-brutal-black/0 group-hover:bg-brutal-black/20 transition-all duration-300">
+              </div>
+              <div
+                class="absolute top-0 right-0 bg-brutal-blue border-l-4 border-b-4 border-brutal-black px-3 py-1 z-10">
                 <span class="font-heading font-bold text-[10px] uppercase text-white">Web App</span>
               </div>
             </div>
             <div class="p-5 flex flex-col flex-grow">
               <h3 class="font-heading font-bold text-lg mb-2">Sistem Inventori Vika Putri</h3>
-              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Sistem informasi manajemen inventori produksi tas dengan implementasi metode Reorder Point (ROP) untuk notifikasi restock otomatis.</p>
+              <p class="font-body text-gray-600 text-sm leading-relaxed flex-grow mb-4">Sistem informasi manajemen
+                inventori produksi tas dengan implementasi metode Reorder Point (ROP) untuk notifikasi restock otomatis.
+              </p>
               <div class="flex gap-2 flex-wrap mb-4">
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CodeIgniter</span>
-                <span class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">AdminLTE</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">CodeIgniter</span>
+                <span
+                  class="px-2 py-0.5 text-[10px] font-heading font-bold uppercase border-2 border-brutal-black bg-brutal-bg">AdminLTE</span>
               </div>
-              <a href="https://github.com/YofaFirmansyah/inventori-vika-putri-rop" target="_blank" rel="noopener noreferrer" class="brutal-btn-outline w-full justify-center !py-2 text-xs">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              <a href="https://github.com/YofaFirmansyah/inventori-vika-putri-rop" target="_blank"
+                rel="noopener noreferrer" class="brutal-btn-outline w-full justify-center !py-2 text-xs">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
                 Lihat Repository
               </a>
             </div>
@@ -407,8 +533,12 @@
     <!-- ===================== CONTACT / CTA SECTION ===================== -->
     <section id="kontak" class="py-20 md:py-28 bg-brutal-blue text-white relative overflow-hidden">
       <!-- Decorative -->
-      <div class="absolute -top-10 -right-10 w-64 h-64 bg-brutal-yellow border-4 border-brutal-black rotate-12 opacity-20 hidden lg:block"></div>
-      <div class="absolute bottom-0 left-0 w-40 h-40 bg-white border-4 border-brutal-black -rotate-6 opacity-10 hidden lg:block"></div>
+      <div
+        class="absolute -top-10 -right-10 w-64 h-64 bg-brutal-yellow border-4 border-brutal-black rotate-12 opacity-20 hidden lg:block">
+      </div>
+      <div
+        class="absolute bottom-0 left-0 w-40 h-40 bg-white border-4 border-brutal-black -rotate-6 opacity-10 hidden lg:block">
+      </div>
 
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <span class="brutal-badge mb-6 inline-block">Mari Terhubung</span>
@@ -416,23 +546,37 @@
           Punya Proyek<br />Menarik<span class="text-brutal-yellow">?</span>
         </h2>
         <p class="text-lg md:text-xl font-body text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Saya selalu terbuka untuk peluang baru, kolaborasi kreatif, atau sekadar berdiskusi tentang desain dan teknologi. Jangan ragu untuk menghubungi saya!
+          Saya selalu terbuka untuk peluang baru, kolaborasi kreatif, atau sekadar berdiskusi tentang desain dan
+          teknologi. Jangan ragu untuk menghubungi saya!
         </p>
 
         <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center items-center">
           <!-- Email Button -->
-          <a href="mailto:yofafirmansyah@gmail.com" class="inline-flex items-center gap-3 px-8 py-4 font-heading font-bold uppercase text-sm border-4 border-brutal-black bg-brutal-yellow text-brutal-black shadow-brutal transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+          <a href="mailto:yofafirmansyah@gmail.com"
+            class="inline-flex items-center gap-3 px-8 py-4 font-heading font-bold uppercase text-sm border-4 border-brutal-black bg-brutal-yellow text-brutal-black shadow-brutal transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
             Kirim Email
           </a>
           <!-- Instagram Button -->
-          <a href="https://www.instagram.com/yofxfrmnsyh/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 px-8 py-4 font-heading font-bold uppercase text-sm border-4 border-brutal-black bg-white text-brutal-black shadow-brutal transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          <a href="https://www.instagram.com/yofxfrmnsyh/" target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 px-8 py-4 font-heading font-bold uppercase text-sm border-4 border-brutal-black bg-white text-brutal-black shadow-brutal transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
             @yofxfrmnsyh
           </a>
           <!-- GitHub Button -->
-          <a href="https://github.com/YofaFirmansyah" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 px-8 py-4 font-heading font-bold uppercase text-sm border-4 border-brutal-black bg-white text-brutal-black shadow-brutal transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          <a href="https://github.com/YofaFirmansyah" target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 px-8 py-4 font-heading font-bold uppercase text-sm border-4 border-brutal-black bg-white text-brutal-black shadow-brutal transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
             GitHub
           </a>
         </div>
@@ -450,14 +594,27 @@
           <span class="text-gray-400 text-sm font-body">Digital Artisan</span>
         </div>
         <div class="flex items-center gap-6">
-          <a href="https://github.com/YofaFirmansyah" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-brutal-yellow transition-colors duration-150">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          <a href="https://github.com/YofaFirmansyah" target="_blank" rel="noopener noreferrer"
+            class="text-gray-400 hover:text-brutal-yellow transition-colors duration-150">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
           </a>
-          <a href="https://www.instagram.com/yofxfrmnsyh/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-brutal-yellow transition-colors duration-150">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          <a href="https://www.instagram.com/yofxfrmnsyh/" target="_blank" rel="noopener noreferrer"
+            class="text-gray-400 hover:text-brutal-yellow transition-colors duration-150">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
           </a>
-          <a href="mailto:yofafirmansyah@gmail.com" class="text-gray-400 hover:text-brutal-yellow transition-colors duration-150">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+          <a href="mailto:yofafirmansyah@gmail.com"
+            class="text-gray-400 hover:text-brutal-yellow transition-colors duration-150">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
           </a>
         </div>
         <p class="text-gray-500 text-xs font-body">© 2024 Yofa Firmansyah. Hak Cipta Dilindungi.</p>
@@ -467,4 +624,5 @@
 
   <script type="module" src="./main.js"></script>
 </body>
+
 </html>
